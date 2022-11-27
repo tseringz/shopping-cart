@@ -13,7 +13,7 @@ function Home() {
                 </section>
                 <section>
                 <p>
-                Bannach is a Berlin furniture brand founded by Moritz Bannach in 2018. The brand 
+                Bannach is a Berlin furniture brand founded by Moritz Banach in 2018. The brand 
                 represents an interdisciplinary approach and is located in the area of ​​tension between 
                 design, architecture and art. In close cooperation with selected manufacturers in Germany, 
                 Bannach produces modern furniture objects that are characterized by their distinctive design 
