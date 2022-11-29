@@ -1,4 +1,4 @@
-import '../App.css';
+import '../GlobalStyle.css';
 import Navbar from '../components/Navbar';
 
 function Contact() {

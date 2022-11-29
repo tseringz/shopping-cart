@@ -1,18 +1,21 @@
 import React from  'react';
-import '../App.css';
+import '../GlobalStyle.css';
 import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <nav>
             <ul className='navlinks-wrapper'>
                 <Link to="/">
-                    <li>Home</li>
+                    <li>HOME</li>
                 </Link>
                 <Link to="/Collection">
-                    <li>Collection</li>
+                    <li>COLLECTION</li>
                 </Link>
                 <Link to="/Contact">
-                    <li>Contact</li>
+                    <li>CONTACT</li>
+                </Link>
+                <Link to="/Contact">
+                    <li>CART(<span>0</span>)</li>
                 </Link>
             </ul>
         </nav>

@@ -1,5 +1,6 @@
-import '../App.css';
+import '../GlobalStyle.css';
 import Navbar from '../components/Navbar';
+import CollectionItems   from '../components/CollectionItems';
 
 function Collections() {
     return (
@@ -11,7 +12,7 @@ function Collections() {
                     <Navbar/>
                 </section>
                 <section>
-               <h1>Collections</h1>
+               <CollectionItems />
                 </section>
             </div>
         </div>
