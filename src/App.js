@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../src/pages/Home';
 import Collection from '../src/pages/Collections';
 import Contact from '../src/pages/Contact';
+import CollectionDetails from  '../src/components/CollectionDetails';
 import '../src/GlobalStyle.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/Collection" element={<Collection />} />
       <Route path="/Contact" element={<Contact />} />
+      <Route path="/CollectionDetails" element={<CollectionDetails />} />
     </Routes>
     </div>
     </BrowserRouter>

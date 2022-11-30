@@ -4,7 +4,7 @@ import YellowCouch from '../assets/couch-yellow-goodwood.jpg';
 import TurquoiseCouch from '../assets/couch-troquise-blue.jpg';
 import LeatherCouch from '../assets/couch-leather-goodwood.jpg';
 import BigYellowCouch from '../assets/couch-yellow-long-goodwood.jpg';
-import GreyCouch from '../assets/couch-grey-goodwood.jpg';
+import GreyCouch from '../assets/grey-couch.jpg';
 import LightBlueCouch from '../assets/light-blue-couch-goodwood.jpg';
 import BrownCouch from '../assets/couch-brown-goodwood.jpg';
 
