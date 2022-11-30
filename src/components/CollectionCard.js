@@ -1,21 +1,24 @@
 import React from  'react';
 import '../GlobalStyle.css';
-import newImages from '../assets/blue-couch-goodwood.jpg';
 function CollectionCard(props) {
     const collection = props.collection;
 
     return (
-        <div className="Card">
-            <div className="card-info" style={{
-                width: '200px',
-                height: '250px',
-                backgroundImage: `url(${collection.src})`, 
-                backgroundPosition: 'center', 
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundColor: 'black',}}>
-                <h4>{collection.name}</h4>
-                <h4>{collection.price}</h4>
+        <div className="Card" style={{
+            display: 'flex',
+            justifyContent: 'flex-start',
+            alignItems: 'flex-end',
+            width: '100%',
+            height: '600px',
+            padding: '40px',
+            backgroundImage: `url(${collection.src})`, 
+            backgroundPosition: 'center', 
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundColor: 'black',}}>
+            <div className="card-info">
+                <h3>{collection.name}</h3>
+                <h3>{collection.price}</h3>
             </div>
         </div>
     )

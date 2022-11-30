@@ -1,9 +1,14 @@
 import React from  'react';
 import '../GlobalStyle.css';
 import { Link } from 'react-router-dom';
-function TopNavbar() {
+function Navbar() {
     return (
-        <nav>
+        <nav className='top-navbar'>
+            <div className='brand-small'>
+            <Link to="/">
+            <a href="#">GOODWOOD</a>
+                </Link>
+            </div>
             <ul className='navlinks-wrapper'>
                 <Link to="/Collection">
                     <li>COLLECTION</li>
@@ -19,4 +24,4 @@ function TopNavbar() {
     )
 }
 
-export default TopNavbar;
+export default Navbar;
