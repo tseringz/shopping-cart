@@ -1,19 +1,24 @@
 import '../GlobalStyle.css';
-import Navbar from '../components/Navbar';
+import TopNavbar from '../components/TopNavbar';
 import CollectionItems   from '../components/CollectionItems';
+import Footer from '../components/Footer';
 
 function Collections() {
     return (
         <div>
             <div className="container">
-                <div className='brand'>
-                    GOODWOOD </div>
                 <section>
-                    <Navbar/>
+                    <TopNavbar/>
                 </section>
                 <section>
                <CollectionItems />
                 </section>
+                <section className="text-info">
+                <h2>Bold design, straight forwardness and a demanding quality concept.</h2>
+            </section>
+                <footer>
+                    <Footer/>
+                </footer>
             </div>
         </div>
     );

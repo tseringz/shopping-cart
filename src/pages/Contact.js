@@ -1,19 +1,12 @@
 import '../GlobalStyle.css';
-import Navbar from '../components/Navbar';
+import TopNavbar from '../components/TopNavbar';
+import Footer from '../components/Footer';
 
 function Contact() {
     return (
-        <div>
-            <div className="container">
-                <div className='brand'>
-                    GOODWOOD </div>
-                <section>
-                    <Navbar/>
-                </section>
-                <section>
-                <h1>Contact</h1>
-                </section>
-            </div>
+        <div className="container">
+            <TopNavbar/>
+            <Footer/>
         </div>
     );
 }

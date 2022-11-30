@@ -17,7 +17,7 @@ function Home() {
                     </div>
                 </section>
                 <section>
-                    <div className="About">
+                    <div className="text-info">
                         <p>
                             Bannach is a Berlin furniture brand founded by Moritz Banach in 2018. The brand represents 
                             an interdisciplinary approach and is located in the area of ​​tension between design, architecture 
@@ -34,9 +34,15 @@ function Home() {
             <section>
                <CollectionItems />
             </section>
+            <div className="container">
+            <section className="text-info">
+                <h2>Bold design, straight forwardness and a demanding quality concept.</h2>
+            </section>
+            
             <footer>
                 <Footer/>
             </footer>
+            </div>
         </div>
     );
 }
