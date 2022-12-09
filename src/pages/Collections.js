@@ -4,6 +4,7 @@ import CollectionItems   from '../components/CollectionItems';
 import Footer from '../components/Footer';
 
 function Collections() {
+
     return (
         <div>
             <div className="container">
@@ -11,11 +12,11 @@ function Collections() {
                     <TopNavbar/>
                 </section>
                 <section>
-               <CollectionItems />
+                    <CollectionItems />
                 </section>
                 <section className="text-info">
                 <h2>Bold design, straight forwardness and a demanding quality concept.</h2>
-            </section>
+                </section>
                 <footer>
                     <Footer/>
                 </footer>

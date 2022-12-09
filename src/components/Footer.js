@@ -5,18 +5,18 @@ function Footer() {
     return (
         <div className="Footer">
             <div className='Contact'>
-            <h3>CONTACT</h3>
-                <h3 className="grey-heading">GOODWOOD@CO.IN</h3>
-               <h3 className="grey-heading">+919377012932</h3>
+            <h4>CONTACT</h4>
+                <h4 className="grey-heading">GOODWOOD@CO.IN</h4>
+               <h4 className="grey-heading">+919377012932</h4>
             </div>
             <div className='Newsletter'>
-                <h3>NEWSLETTER</h3>
-                <h3 className="grey-heading">ENTER YOUR MAIL</h3>
+                <h4>NEWSLETTER</h4>
+                <h4 className="grey-heading">ENTER YOUR MAIL</h4>
             </div>
             <div className='Connect'>
-            <h3>CONNECT</h3>
-                <h3 className="grey-heading">INSTAGRAM</h3>
-                <h3 className="grey-heading">FACEBOOK</h3>
+            <h4>CONNECT</h4>
+                <h4 className="grey-heading">INSTAGRAM</h4>
+                <h4 className="grey-heading">FACEBOOK</h4>
             </div>
         </div>
     )

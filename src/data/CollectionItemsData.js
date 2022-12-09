@@ -99,15 +99,6 @@ const CollectionItemsData = [
     },
 ]
 
-function getCollectionData(id) {
-    let collectionData = CollectionItemsData.find(collection => collection.id === id);
 
-    if (collectionData === undefined) {
-        console.log("Collection data does not exist for ID:" + id);
-        return undefined;
-    }
 
-    return collectionData;
-}
-
-export { CollectionItemsData, getCollectionData };
+export { CollectionItemsData };

@@ -13,11 +13,16 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/Collection" element={<Collection />} />
       <Route path="/Contact" element={<Contact />} />
-      <Route path="/CollectionDetails" element={<CollectionDetails />} />
+      <Route path="/Collection/:id" element = {<CollectionDetails />} />
     </Routes>
     </div>
     </BrowserRouter>
   );
 }
 
+function sayHello() {
+  console.log("Hello!");
+}
+
+sayHello();
 export default App;
