@@ -1,5 +1,5 @@
 import React from  'react';
-import '../GlobalStyle.css';
+import '../card/cardStyle.css';
 
 function CollectionCard(props) {
     const collection = props.collection;

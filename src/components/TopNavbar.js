@@ -1,7 +1,7 @@
 import React from  'react';
 import '../GlobalStyle.css';
 import { Link } from 'react-router-dom';
-function Navbar() {
+function Navbar(props) {
     return (
         <nav className='top-navbar'>
             <div className='brand-small'>
@@ -17,7 +17,7 @@ function Navbar() {
                     <li>CONTACT</li>
                 </Link>
                 <Link to="/Contact">
-                    <li>CART(<span>0</span>)</li>
+                    <li>CART(<span>{props.items}</span>)</li>
                 </Link>
             </ul>
         </nav>

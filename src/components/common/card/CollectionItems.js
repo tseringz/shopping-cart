@@ -1,8 +1,8 @@
 import React from  'react';
-import '../GlobalStyle.css';
+import '../card/cardStyle.css';
 import { Link } from 'react-router-dom';
-import CollectionCard   from '../components/CollectionCard';
-import { CollectionItemsData } from '../data/CollectionItemsData';
+import CollectionCard   from '../card/CollectionCard';
+import { CollectionItemsData } from '/Users/mac/the_odin_project/shopping-cart/src/data/CollectionItemsData';
 
 
 function CollectionItems() {
