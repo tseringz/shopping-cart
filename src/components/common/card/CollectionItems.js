@@ -6,12 +6,11 @@ import { CollectionItemsData } from '/Users/mac/the_odin_project/shopping-cart/s
 
 
 function CollectionItems() {
-
     return (
         <div className="container">
             <h1>COLLECTION</h1>
             <div className="Collection">
-               { CollectionItemsData.map((collection, id) => (
+               { CollectionItemsData.map((collection) => (
                 <div className='collection-wrapper' key={collection.id} >
                     <Link to={`/Collection/${collection.id}`}>
                     <CollectionCard collection={collection} />

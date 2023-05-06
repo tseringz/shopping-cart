@@ -1,6 +1,6 @@
-import '../GlobalStyle.css';
-import TopNavbar from '../components/TopNavbar';
-import Footer from '../components/Footer';
+import '../../GlobalStyle.css';
+import TopNavbar from '../../components/common/navbar/TopNavbar';
+import Footer from '../../components/Footer';
 
 function Contact() {
     return (

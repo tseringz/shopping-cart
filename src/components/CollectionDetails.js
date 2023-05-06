@@ -1,26 +1,24 @@
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { CollectionItemsData } from '../data/CollectionItemsData';
-import TopNavbar from '../components/TopNavbar';
+import TopNavbar from '../components/common/navbar/TopNavbar';
 import Footer from '../components/Footer';
 import '../GlobalStyle.css';
-import { useState } from 'react';
+import Cart from '/Users/mac/the_odin_project/shopping-cart/src/components/common/cart/Cart';
 
-function CollectionDetails() {
+function CollectionDetails({items, addToCart}) {
     const params = useParams();
     const userId = params.id;
     const collectionData = CollectionItemsData.find(collection => collection.id === userId);
-    const [items, setItems] = useState(0);
-
-    const addToCart = () => {
-        setItems(items + 1);
-    }
 
     return (
         <div>
             <div className="container">
                 <section>
-                    <TopNavbar items={items} />
+                    <ul>
+                        <li><TopNavbar /></li>
+                        <li><Cart items={items}/></li>
+                    </ul>
                 </section>
                 <div className="collection-details">
                 <Link to="/COLLECTION">

@@ -1,9 +1,10 @@
-import '../GlobalStyle.css';
-import Navbar from '../components/Navbar';
-import CollectionItems from '../components/CollectionItems';
-import Footer from '../components/Footer';
+import '../.././GlobalStyle.css';
+import Navbar from '../../components/common/navbar/Navbar';
+import CollectionItems from '../../components/common/card/CollectionItems';
+import Footer from '../../components/Footer';
+import Cart from '/Users/mac/the_odin_project/shopping-cart/src/components/common/cart/Cart';
 
-function Home() {
+function Home(props) {
 
     return (
         <div>
@@ -13,7 +14,10 @@ function Home() {
                 </a>
                 <section>
                     <div className="Hero">
-                    <Navbar/>
+                     <ul>
+                        <li><Navbar /></li>
+                        <li><Cart items={props.items}/></li>
+                     </ul>
                     </div>
                 </section>
                 <section>

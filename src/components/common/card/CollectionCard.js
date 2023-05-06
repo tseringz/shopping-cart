@@ -1,8 +1,7 @@
 import React from  'react';
 import '../card/cardStyle.css';
 
-function CollectionCard(props) {
-    const collection = props.collection;
+function CollectionCard({collection}) {
 
     return (
         <>

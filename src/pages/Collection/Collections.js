@@ -1,15 +1,19 @@
-import '../GlobalStyle.css';
-import TopNavbar from '../components/TopNavbar';
-import CollectionItems   from '../components/CollectionItems';
-import Footer from '../components/Footer';
+import '/Users/mac/the_odin_project/shopping-cart/src/GlobalStyle.css';
+import TopNavbar from '../../components/common/navbar/TopNavbar';
+import CollectionItems   from '../.././components/common/card/CollectionItems';
+import Footer from '../../components/Footer';
+import Cart from '../.././components/common/cart/Cart';
 
-function Collections() {
+function Collections({items}) {
 
     return (
         <div>
             <div className="container">
                 <section>
-                    <TopNavbar/>
+                    <ul>
+                        <li><TopNavbar/></li>
+                        <li><Cart items={items}/></li>
+                    </ul>
                 </section>
                 <section>
                     <CollectionItems />
