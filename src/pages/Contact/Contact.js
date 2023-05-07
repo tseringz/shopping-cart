@@ -2,10 +2,10 @@ import '../../GlobalStyle.css';
 import TopNavbar from '../../components/common/navbar/TopNavbar';
 import Footer from '../../components/Footer';
 
-function Contact() {
+function Contact({items}) {
     return (
         <div className="container">
-            <TopNavbar/>
+            <TopNavbar items={items}/>
             <Footer/>
         </div>
     );

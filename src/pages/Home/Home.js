@@ -4,7 +4,7 @@ import CollectionItems from '../../components/common/card/CollectionItems';
 import Footer from '../../components/Footer';
 import Cart from '/Users/mac/the_odin_project/shopping-cart/src/components/common/cart/Cart';
 
-function Home(props) {
+function Home({items}) {
 
     return (
         <div>
@@ -14,9 +14,9 @@ function Home(props) {
                 </a>
                 <section>
                     <div className="Hero">
-                     <ul>
+                     <ul className="navlinks-wrapper">
                         <li><Navbar /></li>
-                        <li><Cart items={props.items}/></li>
+                        <li><Cart items={items}/></li>
                      </ul>
                     </div>
                 </section>

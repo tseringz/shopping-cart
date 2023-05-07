@@ -1,17 +1,23 @@
-
-import Cart from '../.././components/common/cart/Cart';
 import TopNavbar from '../.././components/common/navbar/TopNavbar';
 
-function CheckOut({items}) {
+function CheckOut({items, cartItems}) {
     return (
         <>
          <section>
-            <ul>
-            <li><TopNavbar /></li>
-            <li><Cart items={items}/></li>
-            </ul>
+            <div className="container">
+            <TopNavbar items={items}/>
+            <h1>Your Shopping Bag</h1>
+            <div className="cart-wrapper">
+                {cartItems.map((cartItems) => {
+                    return <li key={cartItems.id}>
+                        <img src={cartItems.src} alt={cartItems.alt}/>
+                        <h3>{cartItems.name}</h3>
+                        <h6>{cartItems.price}</h6>
+                    </li>
+                })}
+            </div>          
+            </div>
         </section>
-        <h1>Check Out</h1>
         </>
     )
 }
