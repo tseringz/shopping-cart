@@ -7,13 +7,15 @@ function Navbar() {
     return (
         <>
         <nav>
-            <ul className='navlinks-wrapper'>
-                <Link to="/Collection">
-                    <li>COLLECTION</li>
-                </Link>
-                <Link to="/Contact">
-                    <li>CONTACT</li>
-                </Link>
+            <ul>
+                <li><Link to="/Collection">
+                    COLLECTION
+                    </Link></li>
+                    <li>
+                    <Link to="/Contact">
+                    CONTACT
+                    </Link>
+                    </li>
             </ul>
         </nav>
         </>

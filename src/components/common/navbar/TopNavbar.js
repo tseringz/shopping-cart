@@ -1,25 +1,28 @@
 import React from  'react';
 import '../.././.././GlobalStyle.css';
+import Cart from '.././cart/Cart';
 import { Link } from 'react-router-dom';
-function TopNavbar() {
+function TopNavbar({items}) {
 
     return (
-        <nav className='top-navbar'>
+           <div className="nav-wrapper">
             <div className='brand-small'>
             <Link to="/">
-            <a href="http://">GOODWOOD</a>
-                </Link>
+            <span>GOODWOOD</span>
+            </Link>
             </div>
-            <ul className='navlinks-wrapper'>
-                <Link to="/Collection">
-                    <li>COLLECTION</li>
-                </Link>
-                <Link to="/Contact">
-                    <li>CONTACT</li>
-                </Link>
-
+            <ul className="topNav-bar">
+                <li><Link to="/Collection">
+                    COLLECTION
+                </Link></li>
+                <li><Link to="/Contact">
+                    CONTACT
+                </Link></li>
+                <li><Link to="/Contact">
+                    <Cart items={items} />
+                </Link></li>
             </ul>
-        </nav>
+            </div>
     )
 }
 

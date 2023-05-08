@@ -18,7 +18,7 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'blue couch with wooden leg',
-        price: '₹4000',
+        price: 4000,
     },
     {
         id: uniqid(),
@@ -29,7 +29,7 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'small yellow couch with wooden leg',
-        price: '₹3500',
+        price: 3500,
     },
     {
         id: uniqid(),
@@ -40,7 +40,7 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'turquoise couch with wooden leg',
-        price: '₹3000',
+        price: 3000,
     },
     {
         id: uniqid(),
@@ -51,7 +51,7 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'big leather couch',
-        price: '₹3999',
+        price: 3999,
     },
     {
         id: uniqid(),
@@ -62,7 +62,7 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'big yellow couch',
-        price: '₹3999',
+        price: 3999,
     },
     {
         id: uniqid(),
@@ -73,7 +73,7 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'grey couch',
-        price: '₹3000',
+        price: 3000,
     },
     {
         id: uniqid(),
@@ -84,7 +84,7 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'light blue couch',
-        price: '₹3000',
+        price: 3000,
     },
     {
         id: uniqid(),
@@ -95,10 +95,8 @@ const CollectionItemsData = [
                       You are doing good and I am doing no good and people are making crazy 
                       about you. lets go to my place and gang gang.`,
         alt: 'brown couch',
-        price: '₹4000',
+        price: 4000,
     },
 ]
-
-
 
 export { CollectionItemsData };

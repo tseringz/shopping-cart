@@ -5,7 +5,7 @@ function Cart({items}) {
     return(
         <>
         <Link to="/CheckOut">
-        <span>Cart({items})</span></Link>
+        <span>CART({items})</span></Link>
         </>
     )
 }

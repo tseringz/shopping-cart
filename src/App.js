@@ -9,8 +9,10 @@ import '../src/GlobalStyle.css';
 
 function App() {
   const [items, setItems] = useState(0);
+  const [cartItems, setCartItems] = useState([]);
 
-  const addToCart = () => {
+  const addToCart = (selectedItem) => {
+    setCartItems([...cartItems, selectedItem]);
     setItems(items + 1);
 }
   return (
@@ -21,16 +23,12 @@ function App() {
       <Route path="/Collection" element={<Collection items={items}/>} />
       <Route path="/Contact" element={<Contact items={items}/>} />
       <Route path="/Collection/:id" element = {<CollectionDetails items={items} addToCart={addToCart} />} />
-      <Route path="/CheckOut" element={<CheckOut items={items} />} />
+      <Route path="/CheckOut" element={<CheckOut cartItems={cartItems} items={items} />} />
     </Routes>
     </div>
     </BrowserRouter>
   );
 }
 
-function sayHello() {
-  console.log("Hello!");
-}
 
-sayHello();
 export default App;
