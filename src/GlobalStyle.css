@@ -168,8 +168,26 @@ li {
   width: 100px;
 }
 
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
 
 input[type="number"] {
-  padding: 5px 5px 5px 10px;
+  appearance: none;
+  --webkit-appearance: none;
+  padding: 5px 10px 5px 10px;
   text-align: center;
+  margin: 0px 10px 0px 10px;
+  border: 1.5px solid black;
+}
+
+.sign {
+  appearance: none;
+  border: 0px;
+  font-size: 1.2rem;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }

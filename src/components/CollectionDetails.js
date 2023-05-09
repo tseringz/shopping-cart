@@ -21,8 +21,8 @@ function CollectionDetails({items, addToCart}) {
                     <TopNavbar items={items}/>
                 </section>
                 <div className="collection-details">
-                <Link to="/COLLECTION">
-                     <a href="/Collection" className="back-to-collection">BACK TO COLLECTION</a>
+                <Link to="/Collection">
+                     <span className="back-to-collection">BACK TO COLLECTION</span>
                 </Link>
                 <div className="Flex">
                     <div className="flex-child image">

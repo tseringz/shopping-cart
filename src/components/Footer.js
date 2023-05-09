@@ -3,6 +3,7 @@ import '../GlobalStyle.css';
 
 function Footer() {
     return (
+        <footer>
         <div className="Footer">
             <div className='Contact'>
             <h4>CONTACT</h4>
@@ -19,6 +20,7 @@ function Footer() {
                 <h4 className="grey-heading">FACEBOOK</h4>
             </div>
         </div>
+        </footer>
     )
 }
 
