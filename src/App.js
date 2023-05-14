@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from '../src/pages/Home/Home';
 import Collection from '../src/pages/Collection/Collections';
 import Contact from '../src/pages/Contact/Contact';
@@ -70,7 +70,7 @@ function App() {
    }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
     <Routes>
       <Route path="/" element={<Home items={items} />} />
@@ -80,7 +80,7 @@ function App() {
       <Route path="/CheckOut" element={<CheckOut counter={counter} decrementOfItems={decrementOfItems} incrementNumberOfItems={incrementNumberOfItems}  cartItems={cartItems} items={items} />} />
     </Routes>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
