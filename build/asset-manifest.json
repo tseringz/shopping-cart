@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.24a9a296.css",
-    "main.js": "/static/js/main.0b593378.js",
-    "static/media/couch-yellow-goodwood.jpg": "/static/media/couch-yellow-goodwood.fb60efd52101f9a0e15b.jpg",
-    "static/media/couch-yellow-long-goodwood.jpg": "/static/media/couch-yellow-long-goodwood.4ef235339f6153f9614d.jpg",
-    "static/media/couch-leather-goodwood.jpg": "/static/media/couch-leather-goodwood.7028a8be8a894b6b3494.jpg",
-    "static/media/grey-couch.jpg": "/static/media/grey-couch.554b19e064b53bb75a23.jpg",
-    "static/media/couch-troquise-blue.jpg": "/static/media/couch-troquise-blue.408b2a08071345724447.jpg",
-    "static/media/blue-couch-goodwood.jpg": "/static/media/blue-couch-goodwood.966e443031f9ac7e6977.jpg",
-    "static/media/couch-brown-goodwood.jpg": "/static/media/couch-brown-goodwood.929b953bb23af7d0d354.jpg",
-    "static/media/phillip-goldsberry-couch-goodwood.jpg": "/static/media/phillip-goldsberry-couch-goodwood.eceffe726e969cea7f10.jpg",
-    "static/media/light-blue-couch-goodwood.jpg": "/static/media/light-blue-couch-goodwood.d21c70a2e8e02badbe51.jpg",
-    "static/media/big-leather-sofa-goodwood.jpg": "/static/media/big-leather-sofa-goodwood.e28f29d2930612a26e3b.jpg",
-    "index.html": "/index.html",
-    "main.24a9a296.css.map": "/static/css/main.24a9a296.css.map",
-    "main.0b593378.js.map": "/static/js/main.0b593378.js.map"
+    "main.css": "/shopping-cart/static/css/main.438d0c23.css",
+    "main.js": "/shopping-cart/static/js/main.7ec21083.js",
+    "static/media/couch-yellow-goodwood.jpg": "/shopping-cart/static/media/couch-yellow-goodwood.fb60efd52101f9a0e15b.jpg",
+    "static/media/couch-yellow-long-goodwood.jpg": "/shopping-cart/static/media/couch-yellow-long-goodwood.4ef235339f6153f9614d.jpg",
+    "static/media/couch-leather-goodwood.jpg": "/shopping-cart/static/media/couch-leather-goodwood.7028a8be8a894b6b3494.jpg",
+    "static/media/grey-couch.jpg": "/shopping-cart/static/media/grey-couch.554b19e064b53bb75a23.jpg",
+    "static/media/couch-troquise-blue.jpg": "/shopping-cart/static/media/couch-troquise-blue.408b2a08071345724447.jpg",
+    "static/media/blue-couch-goodwood.jpg": "/shopping-cart/static/media/blue-couch-goodwood.966e443031f9ac7e6977.jpg",
+    "static/media/couch-brown-goodwood.jpg": "/shopping-cart/static/media/couch-brown-goodwood.929b953bb23af7d0d354.jpg",
+    "static/media/phillip-goldsberry-couch-goodwood.jpg": "/shopping-cart/static/media/phillip-goldsberry-couch-goodwood.eceffe726e969cea7f10.jpg",
+    "static/media/light-blue-couch-goodwood.jpg": "/shopping-cart/static/media/light-blue-couch-goodwood.d21c70a2e8e02badbe51.jpg",
+    "static/media/big-leather-sofa-goodwood.jpg": "/shopping-cart/static/media/big-leather-sofa-goodwood.e28f29d2930612a26e3b.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.438d0c23.css.map": "/shopping-cart/static/css/main.438d0c23.css.map",
+    "main.7ec21083.js.map": "/shopping-cart/static/js/main.7ec21083.js.map"
   },
   "entrypoints": [
-    "static/css/main.24a9a296.css",
-    "static/js/main.0b593378.js"
+    "static/css/main.438d0c23.css",
+    "static/js/main.7ec21083.js"
   ]
 }
